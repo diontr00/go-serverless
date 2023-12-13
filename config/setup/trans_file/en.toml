@@ -1,0 +1,26 @@
+[hello] 
+  other = "Hello From Service API"
+
+[notfound-Error]
+  other = "{{.Method}} cho {{.Route}} is not supported"
+
+[unauthorized-Error] 
+  other = "You are not authorized to perform following operation"
+
+[internalError] 
+  other = "Internal error , please try again"
+
+[badrequest-Error] 
+  other = "{{.Reason}}"
+
+[methodnotallow-error] 
+  other = "Method {{.Method}} for {{.Route}} is not allowed" 
+
+[required] 
+  other = "{{.Field}} is required"
+
+[email]   
+  other = "{{.Field} need to a a valid email"
+
+
+
